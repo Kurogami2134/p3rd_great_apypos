@@ -1,0 +1,15 @@
+.psp
+
+.relativeinclude on
+
+PATCHFILE           equ "14A4P";
+
+SLEEP_BALL_DATA     equ 0x0A18BDA0
+SLEEP_GAS_DATA1     equ 0x0A18A724
+SLEEP_GAS_DATA2     equ 0x0A18A6EC
+MUDBALL_AI_CHOICE1  equ 0x0A1C2681
+MUDBALL_AI_CHOICE2  equ 0x0A1C267B
+
+HITZONE_DATA        equ 0x0A1CBA18
+
+.include "apypos.asm"

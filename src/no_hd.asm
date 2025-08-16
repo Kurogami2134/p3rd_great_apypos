@@ -1,0 +1,15 @@
+.psp
+
+.relativeinclude on
+
+PATCHFILE           equ "144CP"
+
+SLEEP_BALL_DATA     equ 0x09D84B20
+SLEEP_GAS_DATA1     equ 0x09D834A4
+SLEEP_GAS_DATA2     equ 0x09D8346C
+MUDBALL_AI_CHOICE1  equ 0x09DBB401
+MUDBALL_AI_CHOICE2  equ 0x09DBB3FB
+
+HITZONE_DATA        equ 0x09DC4798
+
+.include "apypos.asm"
